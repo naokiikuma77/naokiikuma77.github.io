@@ -200,7 +200,7 @@ a.w--current {
 .portfolio-post._1 {
   height: 250px;
   border-radius: 0px;
-  background-image: url('../images/Artboard@1x.jpg');
+  background-image: url('../images/Artboard1x.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -212,7 +212,7 @@ a.w--current {
 
 .portfolio-post._1.teshu._41 {
   border: 1px none #000;
-  background-image: url('../images/8月-06-2016 22-14-42.gif');
+  background-image: url('../images/8月-06-2016-22-14-42.gif');
   background-position: 50% 50%;
   background-size: 370px;
   background-repeat: no-repeat;
@@ -240,7 +240,7 @@ a.w--current {
 }
 
 .portfolio-post._1._23 {
-  background-image: url('../images/Artboard 12 Copy.jpg');
+  background-image: url('../images/Artboard-12-Copy.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -250,7 +250,7 @@ a.w--current {
   width: 100%;
   height: 506px;
   border-radius: 0px;
-  background-image: url('../images/8月-06-2016 11-28-03.gif'), url('../images/44.jpg');
+  background-image: url('../images/8月-06-2016-11-28-03.gif'), url('../images/44.jpg');
   background-position: 81% 50%, 56% 50%;
   background-size: auto 86%, cover;
   background-repeat: no-repeat, no-repeat;
@@ -267,7 +267,7 @@ a.w--current {
 }
 
 .portfolio-post._3._32 {
-  background-image: url('../images/iPhone 05 Angle 20.jpg');
+  background-image: url('../images/iPhone-05-Angle-20.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -282,7 +282,7 @@ a.w--current {
 .portfolio-post._6 {
   height: 250px;
   border-radius: 10px;
-  background-image: url('../images/iPhone 05 Angle 20_1.jpg');
+  background-image: url('../images/iPhone-05-Angle-20_1.jpg');
   background-repeat: no-repeat;
 }
 
@@ -373,11 +373,32 @@ a.w--current {
 
 .colorbox._002 {
   display: block;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-align-content: space-around;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
   background-image: -webkit-linear-gradient(270deg, #dc308d, #dc308d);
   background-image: linear-gradient(180deg, #dc308d, #dc308d);
 }
 
 .colorbox._003 {
+  padding-top: 76px;
+  padding-bottom: 21px;
   background-image: -webkit-linear-gradient(270deg, #c8f0fc, #c8f0fc);
   background-image: linear-gradient(180deg, #c8f0fc, #c8f0fc);
 }
@@ -1071,7 +1092,7 @@ a.w--current {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/57a979cec1305fe2094c223c_iphone 003.jpg');
+  background-image: url('../images/57a979cec1305fe2094c223c_iphone-003.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1120,8 +1141,8 @@ a.w--current {
 }
 
 .div-sikuai.image.todolist._2 {
-  background-image: url('../images/Artboard 23.jpg'), -webkit-linear-gradient(270deg, #2d3e4e, #2d3e4e);
-  background-image: url('../images/Artboard 23.jpg'), linear-gradient(180deg, #2d3e4e, #2d3e4e);
+  background-image: url('../images/Artboard-23.jpg'), -webkit-linear-gradient(270deg, #2d3e4e, #2d3e4e);
+  background-image: url('../images/Artboard-23.jpg'), linear-gradient(180deg, #2d3e4e, #2d3e4e);
   background-position: 18% 50%, 0px 0px;
   background-size: cover, auto;
   background-repeat: no-repeat, repeat;
@@ -1152,7 +1173,7 @@ a.w--current {
 }
 
 .div-sikuai.image.framer._1 {
-  background-image: url('../images/8月-06-2016 21-55-55.gif');
+  background-image: url('../images/8月-06-2016-21-55-55.gif');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1262,21 +1283,21 @@ a.w--current {
 }
 
 .div-sikuai._4.jianjie {
-  background-image: url('../images/iphone 001.jpg'), -webkit-linear-gradient(270deg, #ff8f3a, #ff8f3a);
-  background-image: url('../images/iphone 001.jpg'), linear-gradient(180deg, #ff8f3a, #ff8f3a);
+  background-image: url('../images/iphone-001.jpg'), -webkit-linear-gradient(270deg, #ff8f3a, #ff8f3a);
+  background-image: url('../images/iphone-001.jpg'), linear-gradient(180deg, #ff8f3a, #ff8f3a);
   background-position: 50% 50%, 0px 0px;
   background-size: cover, auto;
   background-repeat: no-repeat, repeat;
 }
 
 .div-sikuai._4.lianxi {
-  background-image: url('../images/iphone 002.jpg');
+  background-image: url('../images/iphone-002.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .div-sikuai._4.todolist {
-  background-image: url('../images/Artboard 2.jpg');
+  background-image: url('../images/Artboard-2.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1328,7 +1349,7 @@ a.w--current {
 }
 
 .div-sikuai._4.acgo.biaoqing {
-  background-image: url('../images/表情.jpg'), url('../images/Artboard 5.jpg');
+  background-image: url('../images/表情.jpg'), url('../images/Artboard-5.jpg');
   background-position: 50% 50%, 0px 0px;
   background-size: cover, cover;
   background-repeat: no-repeat, repeat;
@@ -1353,7 +1374,7 @@ a.w--current {
 }
 
 .div-sikuai.todolist {
-  background-image: url('../images/iPhone 05 Angle 20_1.jpg');
+  background-image: url('../images/iPhone-05-Angle-20_1.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1367,7 +1388,7 @@ a.w--current {
 }
 
 .div-sikuai.youxi {
-  background-image: url('../images/Artboard 2_1.jpg');
+  background-image: url('../images/Artboard-2_1.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1397,7 +1418,7 @@ a.w--current {
 }
 
 .div-sikuai.youxi.zuihou {
-  background-image: url('../images/zuihou.jpg'), url('../images/Artboard 2_1.jpg');
+  background-image: url('../images/zuihou.jpg'), url('../images/Artboard-2_1.jpg');
   background-position: 50% 50%, 50% 50%;
   background-size: 375px, cover;
   background-repeat: no-repeat, no-repeat;
@@ -2006,8 +2027,8 @@ html.w-mod-js *[data-ix="tagline-animation"] {
     padding-top: 30px;
   }
   .div-sikuai.image.todolist._2 {
-    background-image: url('../images/Artboard 23.jpg'), -webkit-linear-gradient(270deg, #2d3e4e, #2d3e4e);
-    background-image: url('../images/Artboard 23.jpg'), linear-gradient(180deg, #2d3e4e, #2d3e4e);
+    background-image: url('../images/Artboard-23.jpg'), -webkit-linear-gradient(270deg, #2d3e4e, #2d3e4e);
+    background-image: url('../images/Artboard-23.jpg'), linear-gradient(180deg, #2d3e4e, #2d3e4e);
     background-position: 0% 50%, 0px 0px;
     background-size: cover, auto;
     background-repeat: no-repeat, repeat;
@@ -2241,7 +2262,7 @@ html.w-mod-js *[data-ix="tagline-animation"] {
     float: none;
   }
   .portfolio-post._2 {
-    background-image: url('../images/8月-06-2016 11-28-03.gif'), url('../images/44.jpg');
+    background-image: url('../images/8月-06-2016-11-28-03.gif'), url('../images/44.jpg');
     background-position: 51% 49%, 82% 50%;
     background-size: auto 85%, cover;
     background-repeat: no-repeat, no-repeat;
@@ -2253,6 +2274,10 @@ html.w-mod-js *[data-ix="tagline-animation"] {
     display: none;
     background-image: -webkit-linear-gradient(270deg, #327be3, #327be3);
     background-image: linear-gradient(180deg, #327be3, #327be3);
+  }
+  .colorbox._002 {
+    margin-right: -24px;
+    padding-right: 30px;
   }
   .copyright {
     display: block;
@@ -2328,8 +2353,8 @@ html.w-mod-js *[data-ix="tagline-animation"] {
     background-image: linear-gradient(180deg, #ffffea, #ffffea);
   }
   .div-sikuai.image.todolist._2 {
-    background-image: url('../images/Artboard 23.jpg'), -webkit-linear-gradient(270deg, #2d3e4e, #2d3e4e);
-    background-image: url('../images/Artboard 23.jpg'), linear-gradient(180deg, #2d3e4e, #2d3e4e);
+    background-image: url('../images/Artboard-23.jpg'), -webkit-linear-gradient(270deg, #2d3e4e, #2d3e4e);
+    background-image: url('../images/Artboard-23.jpg'), linear-gradient(180deg, #2d3e4e, #2d3e4e);
     background-position: 1% 50%, 0px 0px;
     background-size: cover, auto;
     background-repeat: no-repeat, repeat;
@@ -2459,6 +2484,9 @@ html.w-mod-js *[data-ix="tagline-animation"] {
     display: inline-block;
     height: 9%;
     margin-left: 20px;
+  }
+  .h1.ui.todolist {
+    font-size: 48px;
   }
   .h5.shejiguocheng.neirong {
     background-color: transparent;
